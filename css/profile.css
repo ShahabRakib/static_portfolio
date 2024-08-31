@@ -1,0 +1,473 @@
+.profileEditForm{
+    border: 1px solid #353935;
+    padding: 15px;
+    border-radius: 0px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+.profileEditForm::-webkit-scrollbar{
+    width: 2px;
+    background-color: #252526;
+}
+.profileEditForm::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.profileEditForm::-webkit-scrollbar-thumb:hover{
+    background-color: #1A1A1A;
+}
+.profileEditForm::-webkit-scrollbar-corner{
+    background-color: #252526;
+}
+.profileEditForm form .profileCloseForm{
+    text-align: right;
+ }
+.profileEditForm form .profileCloseForm button{
+    background-color: #252526;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: .5;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.profileEditForm form .profileCloseForm button:hover{
+    background-color: #900c3f;
+    opacity: 1;
+}
+.profileEditForm form label{
+    display: block;
+    margin-bottom: 30px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.profileEditForm form input{
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #252526;
+    border: none;
+    padding: 10px;
+    caret-color: #900c3f;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: .5;
+}
+.profileEditForm form input:focus{
+    outline: none;
+}
+.profileEditForm form input:-webkit-autofill{
+    box-shadow: 0 0 0 30px #252526 inset;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+}
+.profileEditForm form .profileSaveForm{
+   text-align: center; 
+}
+.profileEditForm form .profileSaveForm button{
+    background-color: #252526;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: .5;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.profileEditForm form .profileSaveForm button:hover{
+    background-color: #900c3f;
+    opacity: 1;
+}
+.profileEditForm form .profileSaveForm .message-status-success{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: green;
+}
+.profileEditForm form .profileSaveForm .message-status-failed{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #900c3f;
+}
+
+/*profile Post creating form starts*/
+.profilePostForm{
+    border: 1px solid #353935;
+    padding: 15px;
+    border-radius: 0px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+.profilePostForm::-webkit-scrollbar{
+    width: 2px;
+    background-color: #252526;
+}
+.profilePostForm::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.profilePostForm::-webkit-scrollbar-thumb:hover{
+    background-color: #1A1A1A;
+}
+.profilePostForm::-webkit-scrollbar-corner{
+    background-color: #252526;
+}
+.profilePostForm .postCloseForm{
+    text-align: right;
+    margin-bottom: 30px;
+}
+.profilePostForm .postCloseForm button{
+    background-color: #252526;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    opacity: .5;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.profilePostForm .postCloseForm button:hover{
+    background-color: #900c3f;
+    opacity: 1;
+}
+.profilePostForm form input{
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #252526;
+    border: none;
+    padding: 10px;
+    caret-color: #900c3f;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: .5;
+}
+.profilePostForm form input:focus{
+    outline: none;
+}
+.profilePostForm form input:-webkit-autofill{
+    box-shadow: 0 0 0 30px #252526 inset;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+}
+.profilePostForm form textarea{
+    background: #252526;
+    border: none;
+    opacity: .5;
+    caret-color: #900c3f;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    resize:vertical;
+}
+.profilePostForm form textarea:focus{
+    outline: none;
+}
+.profilePostForm form textarea::-webkit-scrollbar{
+    width: 2px;
+    background-color: #252526;
+}
+.profilePostForm form textarea::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.profilePostForm form textarea::-webkit-scrollbar-thumb:hover{
+    background-color: #1A1A1A;
+}
+.profilePostForm form textarea::-webkit-scrollbar-corner{
+    background-color: #252526;
+}
+.profilePostForm form button{
+    background-color: #252526;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    opacity: .5;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.profilePostForm form .profileSaveForm button:hover{
+    background-color: #900c3f;
+    opacity: 1;
+}
+.profilePostForm form .profileSaveForm .message-status-success{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: green;
+}
+.profilePostForm form .profileSaveForm .message-status-failed{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #900c3f;
+}
+
+.profilePostForm form .post_creation{
+   display: flex;
+   justify-content: center;
+}
+/*profile Post creating form ends*/
+
+/* target post creating form starts */
+.profileTargetPostForm{
+    position: relative;
+}
+.profileTargetPostForm::-webkit-scrollbar{
+    width: 2px;
+    background-color: #252526;
+}
+.profileTargetPostForm::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.profileTargetPostForm::-webkit-scrollbar-thumb:hover{
+    background-color: #1A1A1A;
+}
+.profileTargetPostForm::-webkit-scrollbar-corner{
+    background-color: #252526;
+}
+.target_post_edit_form .profileTargetPostForm{
+    border: 1px solid #353935;
+    padding: 1px;
+    border-radius: 0px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+.target_postCloseForm{
+    text-align: right;
+    margin-bottom: 30px;
+}
+.target_postCloseForm button{
+    background-color: #252526;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    opacity: .5;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.target_postCloseForm button:hover{
+    background-color: #900c3f;
+    opacity: 1;
+}
+.target_post_edit_form form input{
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #252526;
+    border: none;
+    padding: 10px;
+    caret-color: #900c3f;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: .5;
+}
+.target_post_edit_form form input:focus{
+    outline: none;
+}
+.target_post_edit_form form input:-webkit-autofill{
+    box-shadow: 0 0 0 30px #252526 inset;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+}
+.target_post_edit_form form textarea{
+    background: #252526;
+    border: none;
+    opacity: .5;
+    caret-color: #900c3f;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    resize:vertical;
+}
+.target_post_edit_form form textarea:focus{
+    outline: none;
+}
+.target_post_edit_form form textarea::-webkit-scrollbar{
+    width: 2px;
+    background-color: #252526;
+}
+.target_post_edit_form form textarea::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.target_post_edit_form form textarea::-webkit-scrollbar-thumb:hover{
+    background-color: #1A1A1A;
+}
+.target_post_edit_form form textarea::-webkit-scrollbar-corner{
+    background-color: #252526;
+}
+.target_post_creation button{
+    background-color: #252526;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    opacity: .5;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.target_post_creation button:hover{
+    background-color: #900c3f;
+    opacity: 1;
+}
+.target_post_creation{
+    display: flex;
+    justify-content: center;
+ }
+/* target post creating form ends */
+
+/* target post comments form starts */
+.comments_form_container{
+    border: 1px solid #353935;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+.comments_form_container::-webkit-scrollbar{
+    width: 2px;
+    background-color: #252526;
+}
+.comments_form_container::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.comments_form_container::-webkit-scrollbar-thumb:hover{
+    background-color: #1A1A1A;
+}
+.comments_form_container::-webkit-scrollbar-corner{
+    background-color: #252526;
+}
+.comments_form_container form input{
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #252526;
+    border: none;
+    padding: 10px;
+    caret-color: #900c3f;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: .5;
+}
+.comments_form_container form input:focus{
+    outline: none;
+}
+.comments_form_container form input:-webkit-autofill{
+    box-shadow: 0 0 0 30px #252526 inset;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+}
+.comments_form_container form textarea{
+    background: #252526;
+    border: none;
+    opacity: .5;
+    caret-color: #900c3f;
+    padding: 10px 30px 10px 10px;
+    width: 100%;
+    height: auto;
+    resize:vertical;
+}
+.comments_form_container form textarea:focus{
+    outline: none;
+}
+.comments_form_container form textarea::-webkit-scrollbar{
+    width: 2px;
+    background-color: #252526;
+}
+.comments_form_container form textarea::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.comments_form_container form textarea::-webkit-scrollbar-thumb:hover{
+    background-color: #1A1A1A;
+}
+.comments_form_container form textarea::-webkit-scrollbar-corner{
+    background-color: #252526;
+}
+.comments_form_container form button{
+    background: #252526;
+    border: none;
+    padding: 5px 8px 5px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: .3s;
+}
+.comments_form_container form button:hover{
+    background-color: #900c3f;
+}
+.comments_form_container form .comment_button_align{
+    display: flex;
+    justify-content: center;
+}
+.comment_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #353935;
+    margin-bottom: 30px;
+}
+.comment_header .close_comment_form{
+    background-color: #1A1A1A;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.comment_header .close_comment_form:hover{
+    background-color: #900c3f;
+}
+.first_comment_reply_form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+.mid_comment_reply_form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+.last_comment_reply_form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+/* target post comments form ends */
+
+
+
+
+
+
